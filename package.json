@@ -20,5 +20,12 @@
     "test": "node_modules/mocha/bin/mocha test/test.js -R spec",
     "cover": "istanbul cover _mocha -- test/test.js -R spec",
     "minify": "browserify -e byname.js | uglifyjs > byname.js.min.js"
+  },
+  "keywords": [
+    "microdom",
+    "plugin"
+  ],
+  "peerDependencies": {
+    "microdom": "~0.2.1"
   }
 }

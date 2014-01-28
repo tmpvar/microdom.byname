@@ -1,3 +1,7 @@
+if (typeof require !== 'undefined') {
+  var microdom = require('microdom');
+}
+
 microdom.plugin({
   byName: function(name, res) {
     res = res || [];
